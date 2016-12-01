@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotWeb", "DotWeb\DotWeb.csproj", "{8CF552AA-80C6-4018-8BE9-CD1C4A862C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotWeb.Admin", "DotWeb.Admin\DotWeb.Admin.csproj", "{9843F4C4-8FC3-43B9-A328-CE2F5B41362A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotWeb.Tests", "DotWeb.Tests\DotWeb.Tests.csproj", "{05198252-E0F8-4F06-ACCA-A021AB1765AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotWeb.Samples", "DotWeb.Samples\DotWeb.Samples.csproj", "{02F6ED32-6248-4C31-8C6A-B2EF3D0A6587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotWeb.Generator", "DotWeb.Generator\DotWeb.Generator.csproj", "{F74AE975-17DA-480B-9A1B-5A889B979F84}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://43.252.8.238:4002/tfs/defaultcollection
+		SccProjectUniqueName0 = DotWeb.Tests\\DotWeb.Tests.csproj
+		SccProjectName0 = DotWeb.Tests
+		SccLocalPath0 = DotWeb.Tests
+		SccProjectUniqueName1 = DotWeb.Admin\\DotWeb.Admin.csproj
+		SccProjectName1 = DotWeb.Admin
+		SccLocalPath1 = DotWeb.Admin
+		SccProjectUniqueName2 = DotWeb\\DotWeb.csproj
+		SccProjectName2 = DotWeb
+		SccLocalPath2 = DotWeb
+		SccLocalPath3 = .
+		SccProjectUniqueName4 = DotWeb.Samples\\DotWeb.Samples.csproj
+		SccProjectName4 = DotWeb.Samples
+		SccLocalPath4 = DotWeb.Samples
+		SccProjectUniqueName5 = DotWeb.Generator\\DotWeb.Generator.csproj
+		SccProjectName5 = DotWeb.Generator
+		SccLocalPath5 = DotWeb.Generator
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CF552AA-80C6-4018-8BE9-CD1C4A862C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF552AA-80C6-4018-8BE9-CD1C4A862C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF552AA-80C6-4018-8BE9-CD1C4A862C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF552AA-80C6-4018-8BE9-CD1C4A862C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9843F4C4-8FC3-43B9-A328-CE2F5B41362A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9843F4C4-8FC3-43B9-A328-CE2F5B41362A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9843F4C4-8FC3-43B9-A328-CE2F5B41362A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9843F4C4-8FC3-43B9-A328-CE2F5B41362A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05198252-E0F8-4F06-ACCA-A021AB1765AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05198252-E0F8-4F06-ACCA-A021AB1765AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05198252-E0F8-4F06-ACCA-A021AB1765AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05198252-E0F8-4F06-ACCA-A021AB1765AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F6ED32-6248-4C31-8C6A-B2EF3D0A6587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F6ED32-6248-4C31-8C6A-B2EF3D0A6587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F6ED32-6248-4C31-8C6A-B2EF3D0A6587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F6ED32-6248-4C31-8C6A-B2EF3D0A6587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74AE975-17DA-480B-9A1B-5A889B979F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74AE975-17DA-480B-9A1B-5A889B979F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74AE975-17DA-480B-9A1B-5A889B979F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74AE975-17DA-480B-9A1B-5A889B979F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
